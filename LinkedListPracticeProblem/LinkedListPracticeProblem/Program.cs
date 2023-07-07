@@ -10,8 +10,9 @@ namespace LinkedListPracticeProblem
     {
         static void Main(string[] args)
         {
-            //UC1 create a simple Linked list 56-30-70
+            //UC2:- Ability to create LinkedList by adding 30 and 56 to 70
             LinkedListNode list = new LinkedListNode();
+            Console.WriteLine("SimpleLinked List Created");
             list.Add(56);
             list.Add(30);
             list.Add(70);
